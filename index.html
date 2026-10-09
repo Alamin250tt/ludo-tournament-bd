@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ludo Tournament BD</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#101522;color:white;font-family:Arial,sans-serif}
+header{background:#171f32;padding:22px 18px;border-bottom:2px solid #f7bd36}
+header h2{margin:0;color:#ffd34e}
+header p{margin:7px 0 0;color:#c7cede;font-size:13px}
+.balance{margin:16px;padding:18px;background:linear-gradient(120deg,#174c3c,#227b58);border-radius:15px}
+.balance small{color:#d3f6df}
+.balance h2{margin:8px 0}
+button{border:0;border-radius:9px;padding:12px 15px;font-weight:bold;cursor:pointer}
+.deposit{background:#ffd34e;color:#171717}
+h3{margin:22px 16px 12px}
+.tabs{display:flex;gap:8px;margin:0 16px;overflow:auto}
+.tab{background:#242d40;color:white;white-space:nowrap}
+.list{margin:12px 16px;background:#1b2436;padding:15px;border-radius:13px;border:1px solid #303b50}
+.tag{color:#64e6a2;font-size:12px}
+.details{display:flex;justify-content:space-between;gap:8px;margin:13px 0;font-size:13px;color:#d1d8e6}
+.join{background:#ffd34e;width:100%;font-size:15px}
+nav{position:fixed;bottom:0;left:0;right:0;background:#171f32;display:flex;justify-content:space-around;padding:13px 4px;border-top:1px solid #394258}
+nav span{font-size:12px;text-align:center;color:#e0e5ef}
+main{padding-bottom:80px}
+</style>
+</head>
+<body>
+<header>
+<h2>🎲 Ludo Tournament BD</h2>
+<p>খেলুন • প্রতিযোগিতা করুন • জিতুন</p>
+</header>
+<main>
+<div class="balance">
+<small>আমার ওয়ালেট (ডেমো)</small>
+<h2>৳ 0.00</h2>
+<button class="deposit" onclick="alert('এটি ডেমো। এখনো bKash পেমেন্ট চালু হয়নি।')">＋ টাকা জমা</button>
+</div>
+<h3>🏆 টুর্নামেন্ট</h3>
+<div class="tabs">
+<button class="tab">সব</button>
+<button class="tab">চলমান</button>
+<button class="tab">শীঘ্রই শুরু</button>
+</div>
+<div class="list">
+<span class="tag">● রেজিস্ট্রেশন চলছে</span>
+<h3 style="margin:10px 0">🥇 Beginner Tournament</h3>
+<div class="details"><span>এন্ট্রি ফি: ৳ 0</span><span>পুরস্কার: ডেমো</span></div>
+<div class="details"><span>গেম: Ludo King</span><span>খেলোয়াড়: 0/4</span></div>
+<button class="join" onclick="alert('এটি শুধু ডিজাইন ডেমো। এখনো রেজিস্ট্রেশন চালু হয়নি।')">টুর্নামেন্টে যোগ দিন</button>
+</div>
+<div class="list">
+<span class="tag">● শীঘ্রই শুরু</span>
+<h3 style="margin:10px 0">🎯 Friendly Match</h3>
+<div class="details"><span>এন্ট্রি ফি: ফ্রি</span><span>পুরস্কার: ডেমো</span></div>
+<div class="details"><span>গেম: Ludo King</span><span>খেলোয়াড়: 0/4</span></div>
+<button class="join" onclick="alert('এটি শুধু ডিজাইন ডেমো।')">বিস্তারিত দেখুন</button>
+</div>
+</main>
+<nav>
+<span>🏠<br>হোম</span>
+<span>🏆<br>টুর্নামেন্ট</span>
+<span>💰<br>ওয়ালেট</span>
+<span>👤<br>প্রোফাইল</span>
+</nav>
+</body>
+</html>
